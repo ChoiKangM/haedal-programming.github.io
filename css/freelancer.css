@@ -1,5 +1,6 @@
+
 body {
-  font-family: 'Lato';
+  font-family: 'Nanum Gothic';
 }
 
 h1,
@@ -9,11 +10,12 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Nanum Gothic';
 }
 
 hr.star-light,
-hr.star-dark {
+hr.star-dark,
+hr.star-info {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -24,7 +26,8 @@ hr.star-dark {
 }
 
 hr.star-light:after,
-hr.star-dark:after {
+hr.star-dark:after,
+hr.star-info:after {
   position: relative;
   top: -.8em;
   display: inline-block;
@@ -42,6 +45,15 @@ hr.star-light:after {
   color: #fff;
   background-color: #D9D9D9;
 }
+hr.star-info {
+  border-color: #fff;
+}
+
+hr.star-info:after {
+  color: #fff;
+  background-color: #6d6d6d;
+}
+
 
 hr.star-dark {
   border-color: #3D3D3D;
@@ -98,7 +110,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Nanum Gothic';
 }
 
 #mainNav .navbar-brand {
@@ -177,7 +189,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Lato';
+  font-family: 'Nanum Gothic';
 }
 
 @media (min-width: 992px) {
@@ -212,7 +224,7 @@ header img.circle {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: #eceff2;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -338,7 +350,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #eceff2;
 }
 
 .btn {
@@ -351,6 +363,9 @@ a:focus, a:hover, a:active {
 
 .bg-secondary {
   background-color: #3D3D3D !important;
+}
+.bg-info{
+  background-color: #6b6b6b !important;
 }
 
 .text-primary {
@@ -367,8 +382,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #eceff2;
+  border-color: #eceff2;
 }
 
 .btn-secondary {

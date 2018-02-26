@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Nanum Gothic';
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 h1,
@@ -10,7 +10,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Nanum Gothic';
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 hr.star-light,
@@ -110,7 +110,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Nanum Gothic';
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 #mainNav .navbar-brand {
@@ -189,7 +189,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Nanum Gothic';
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -364,7 +364,7 @@ a:focus, a:hover, a:active {
 .bg-secondary {
   background-color: #3D3D3D !important;
 }
-.bg-info{
+.bg-haedal{
   background-color: #6b6b6b !important;
 }
 

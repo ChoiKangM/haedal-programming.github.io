@@ -15,7 +15,8 @@ h6 {
 
 hr.star-light,
 hr.star-dark,
-hr.star-info {
+hr.star-info,
+hr.star-darkgray {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -27,7 +28,8 @@ hr.star-info {
 
 hr.star-light:after,
 hr.star-dark:after,
-hr.star-info:after {
+hr.star-info:after,
+hr.star-darkgray:after {
   position: relative;
   top: -.8em;
   display: inline-block;
@@ -43,6 +45,14 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
+  background-color: #D9D9D9;
+}
+hr.star-darkgray {
+  border-color: #3d3d3d;
+}
+
+hr.star-darkgray:after {
+  color: #3d3d3d;
   background-color: #D9D9D9;
 }
 hr.star-info {

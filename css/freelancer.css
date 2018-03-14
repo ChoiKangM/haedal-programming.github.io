@@ -385,7 +385,9 @@ a:focus, a:hover, a:active {
 .text-secondary {
   color: #3D3D3D !important;
 }
-
+.btn-outline-white{
+  border-color: #ffffff;
+}
 .btn-primary {
   background-color: #D9D9D9;
   border-color: #D9D9D9;

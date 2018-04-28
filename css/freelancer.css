@@ -121,6 +121,7 @@ section h2 {
   padding-bottom: 1rem;
   font-weight: 700;
   font-family: 'Nanum Gothic', sans-serif;
+  box-shadow: 0 4px 6px 0 hsla(0,0%,0%,0.2);
 }
 
 #mainNav .navbar-brand {
@@ -406,4 +407,10 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+.btn-shadow{
+  box-shadow: 4px 4px 4px hsla(0,0%,0%,0.2);
+}
+.border-secondary-top{
+  border-top: 6px solid #3D3D3D;
 }

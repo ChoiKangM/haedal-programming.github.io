@@ -409,7 +409,7 @@ a:focus, a:hover, a:active {
   border-color: #1a252f;
 }
 .btn-shadow{
-  box-shadow: 4px 4px 4px hsla(0,0%,0%,0.2);
+  box-shadow: 2px 2px 2px hsla(0,0%,0%,0.2);
 }
 .border-secondary-top{
   border-top: 6px solid #3D3D3D;
